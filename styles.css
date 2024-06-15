@@ -1,0 +1,579 @@
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.top-header{
+    background: #255F9F;
+    height: 40px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 220px;
+    height: 40px;
+    background:#118aef;
+    display: flex;
+    text-align: center;
+}
+.left img{ 
+    width: 44px;
+    height: 44px;
+    padding: 5px;
+    line-height: 40px;
+}
+.left h1{ 
+    font-size: 22px;
+    line-height: 40px;
+    margin-left: 5px;
+    white-space: nowrap;
+}
+.left i{ 
+    font-size: 22px;
+}
+.right i{ 
+    font-size: 22px;
+}
+.right{
+  width: 40%;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.right i{
+   line-height: 40px;
+}
+.right h4{
+    line-height: 40px;
+    font-size:13px ;
+}
+.logo{
+    width: 220px;
+    height: 120px;
+    margin-top: 20px;
+    background: url(./images/logo.png) no-repeat; 
+}
+.menu-section{
+    width: 50%;
+    height: 40px;
+    margin-top: 40px;
+}
+.menu-section a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 17px;
+    white-space: nowrap;
+}
+.menu-section a:hover{
+    color: #118aef;
+}
+.banner-section{
+    width: 100%;
+
+}
+.box{
+    width: 100%;
+    height: 200px;
+    background: #333333;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.box h3{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: xx-large;
+}
+.paragraph{
+    width: 90%;
+}
+.box p{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: large;
+}
+.box-1{
+    width: 100%;
+    height: 270px;
+    background: #f5f5f5;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box-1 h1{
+    margin-left:60px ;
+    color: rgb(141, 135, 135);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+    border-top: 3px solid #118aef;
+    width:140px;
+    height: 40px;
+    text-align: center;
+}
+.corousel{
+    width: 90%;
+    height: 210px;
+    margin-top: 10px;
+    grid-gap: 30px;
+    margin-left: 90px;
+}
+.item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+    grid-gap: 40px;
+    height: fit-content;
+}
+.box1{
+    width: 319px;
+    height: 162px;
+    background:url(./images/computer-lab-0.jpg) no-repeat;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.box2{
+    width: 319px;
+    height: 162px;
+    background: url(./images/Library0.jpg) no-repeat;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.box3{
+    width: 319px;
+    height: 162px;
+    background: url(./images/science-lab-0.jpg)no-repeat;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.box4{
+    width: 319px;
+    height: 162px;
+    background:url(./images/thumb-transport.jpg) no-repeat;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+ 
+}
+.box5{
+    width: 319px;
+    height: 162px;
+    background: url(./images/thumb-hostel.jpg) no-repeat;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.box6{
+    width: 319px;
+    height: 162px;
+    background: url(./images/thumb-eca.jpg)no-repeat;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.item h5{
+    color: #333333;
+    background: #255F9F;
+    height: 35px;
+    width: 300px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    line-height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px, rgb(51, 51, 51) 0px 0px 0px 2px;
+}
+.card-box-2{
+    width: 90%;
+    height: 650px;
+    margin: auto;
+    margin-top: 20px;
+    background:#f5f5f5;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+.card{
+    width: 400px;
+   margin-top: 30px;
+   margin-left: 40px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border: 2px solid #255F9F;
+}
+.card-1{
+    width: 410px;
+    height: 550px;
+    margin-top: 20px;
+    margin-left: 21px;
+}
+.card-2{
+    width: 410px;
+    height: 550px;
+    margin-top: 21px;
+    margin-left: 20px;
+}
+.card-3{
+    width: 410px;
+    height: 550px;
+    margin-top: 25px;
+    margin-left: 20px;
+
+}
+.card-text{
+    font-size: 11px;
+}
+.end{
+    width: 100%;
+    height: 350px;
+    background: #333333;
+    margin-top: 30px;
+    display: flex;
+   
+}
+.nobel-pvt-ltd{
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 80px;
+}
+.nobel-pvt-ltd h1{
+    font-size: x-large;
+    color: whitesmoke;
+}
+.nobel-pvt-ltd a{
+    font-size:small;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+.location{
+    width: 200px;
+    height: 350px;
+    margin-left:40px;
+    
+}
+.location h5{
+    color: whitesmoke;
+    margin-top: 40px;
+}
+.visit{
+    width: 300px;
+    height: 350px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.visit h1{
+    font-size: x-large;
+    color: whitesmoke;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    .top-header{
+        background: #255F9F;
+        height: 30px;
+        width: 100%;
+        color: white;
+    }
+    .left{
+        width: 110px;
+        height:30px;
+        background:#118aef;
+        display: flex;
+        text-align: center;
+    }
+    .left img{ 
+        width: 32px;
+        height: 33px;
+        padding: 0px;
+        line-height: 40px;
+    }
+    .left h1{ 
+        font-size: 10px;
+        line-height: 30px;
+        white-space: nowrap;
+       
+        
+    }
+    .right{
+        width: 40%;
+        height: 30px;
+        display: flex;
+        justify-content: space-around;
+        
+      }
+      .right i{
+         line-height: 30px;
+      }
+      .right h4{
+          line-height: 30px;
+          font-size:4px ;
+      }
+      .right i{
+        line-height: 30px;
+        font-size:8px ;
+    }
+    .logo{
+     display: none;
+        
+    }
+    .menu-section{
+        width: 100%;
+        height: 28px;
+        margin-top: 20px;
+        text-align: center;
+        background: #118aef;
+        border-radius: 8px;
+        
+    }
+    
+    .menu-section a{
+        text-decoration: none;
+        font-size: 8px;
+        color: black;
+        line-height: 20px !important;
+        margin-bottom: 10px;
+    }
+    .menu-section a:hover{
+        color: #118aef;
+    }
+    .banner-section{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .box{
+        width: 100%;
+        height: 130px;
+        background: #333333;
+        margin-top: 40px;
+        border-radius: 5px;
+    }
+    .box h3{
+        color: whitesmoke;
+        text-decoration: none;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: small;
+    }
+    .paragraph{
+        width: 90%;
+    }
+    .box p{
+        color: whitesmoke;
+        text-decoration: none;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: xx-small;
+    }
+    .box-1{
+        width: 100%;
+        height: 129px;
+        background: grey;
+        margin-top: 20px;
+    }
+    .box-1 h1{
+        width: 80px;
+        height: 20px;
+        font-size: large;
+        margin-left: 10px;
+        color: #333333;
+    }
+    .corousel{
+        width: 90%;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 4px;
+        grid-gap: 30px;
+        margin-left: 30px;
+        justify-content: space-between;
+    }
+    .item {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 10px;
+        grid-gap: 25px;
+    }
+    .box1{
+        width: 100px;
+        height: 70px;
+        object-fit: scale-down;
+        background-size: cover;
+        background:url(./images/computer-lab-0.jpg) no-repeat;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    .box2{
+        width: 100px;
+        height: 70px;
+        object-fit: fill;
+        background-size: cover;
+        background: url(./images/Library0.jpg) no-repeat;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    .box3{
+        width: 100px;
+        height: 70px;
+        object-fit: fill;
+        background-size: cover;
+        background: url(./images/science-lab-0.jpg)no-repeat;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    .box4{
+        width: 100px;
+        height: 70px;
+        object-fit: fill;
+        background-size: cover;
+        background:url(./images/thumb-transport.jpg) no-repeat;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+     
+    }
+    .box5{
+        width: 100px;
+        height: 70px;
+        object-fit: fill;
+        background-size: cover;
+        background: url(./images/thumb-hostel.jpg) no-repeat;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    .box6{
+        width: 100px;
+        height: 70px;
+        object-fit: fill;
+        background-size: cover;
+        background: url(./images/thumb-eca.jpg)no-repeat;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    .item h5{
+        color: #333333;
+        background: #255F9F;
+        height: 20px;
+        width: 80px;
+        text-align: center;
+        color: white;
+        border-radius: 5px;
+        margin-left: 10px;
+        line-height: 20px;
+        font-size: small;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px, rgb(51, 51, 51) 0px 0px 0px 2px;
+    }
+    .card-box-2{
+        width: 90%;
+        height: 1800px;
+        margin: auto;
+        margin-top: 20px;
+        background:#f5f5f5;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        justify-content: space-between;
+    }
+    .card{
+        width: 300px;
+       margin-top: 30px;
+       margin-left: 1px;
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       border: 2px solid #255F9F;
+    }
+    .card-1{
+        width: 380px;
+        height: 550px;
+        margin-top: 20px;
+        margin-left: 21px;
+    }
+    .card-2{
+        width: 380px;
+        height: 550px;
+        margin-top: 21px;
+        margin-left: 20px;
+    }
+    .card-3{
+        width: 380px;
+        height: 550px;
+        margin-top: 25px;
+        margin-left: 20px;
+    
+    }
+    .card-text{
+        font-size: 11px;
+    }
+    .end{
+        width: 100%;
+        height: 200px;
+        background: #333333;
+        margin-top: 30px;
+        display: flex;
+       
+    }
+    .nobel-pvt-ltd{
+        width: 400px;
+        height: 200px;
+        text-align: center;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .nobel-pvt-ltd h1{
+        font-size: x-small;
+        color: whitesmoke;
+        white-space: nowrap;
+    }
+    .nobel-pvt-ltd a{
+        font-size:xx-small;
+        color: whitesmoke;
+        text-decoration: none;
+        padding: 5px;
+        
+    }
+    .location{
+        width: 200px;
+        height: 200px;
+        margin-left:20px;
+       
+        
+    }
+     .location-map{
+        width: 140px;
+        height: 150px;
+     }
+    .location h5{
+        color: whitesmoke;
+        margin-top: 20px;
+        font-size: x-small;
+    }
+    .visit{
+        width: 200px;
+        height: 200px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    .visit h1{
+        font-size: x-small;
+        color: whitesmoke;
+        margin-top: 20px;
+    }
+    .visit p{
+        font-size: 8px;
+    }
+    
+    
+}
+
+    
